@@ -1,0 +1,460 @@
+{
+  "servidores": [
+    {
+      "id": "1",
+      "nombreServidor": "Servidor-Principal-01",
+      "cpu": {
+        "modelo": "Intel Xeon E5-2680 v4",
+        "nucleos": 16,
+        "hilos": 32,
+        "velocidadBase": 2.4,
+        "velocidadBoost": 3.3,
+        "generacion": "Broadwell",
+        "consumoTDP": 120,
+        "precio": 0
+      },
+      "ram": {
+        "capacidadTotal": 64,
+        "tipo": "DDR4",
+        "velocidad": 2400,
+        "numeroModulos": 4,
+        "configuracion": "quad",
+        "precio": 0
+      },
+      "almacenamiento": {
+        "tipo": "NVMe",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe4",
+        "factorForma": "M.2",
+        "precio": 0
+      }
+    },
+    {
+      "id": "2",
+      "nombreServidor": "Servidor-Web-02",
+      "cpu": {
+        "modelo": "AMD EPYC 7543",
+        "nucleos": 32,
+        "hilos": 64,
+        "velocidadBase": 2.8,
+        "velocidadBoost": 3.7,
+        "generacion": "Milan (3rd Gen)",
+        "consumoTDP": 225,
+        "precio": 0
+      },
+      "ram": {
+        "capacidadTotal": 128,
+        "tipo": "DDR4",
+        "velocidad": 3200,
+        "numeroModulos": 8,
+        "configuracion": "quad",
+        "precio": 0
+      },
+      "almacenamiento": {
+        "tipo": "NVMe",
+        "capacidadTotal": 2000,
+        "velocidadLectura": 7000,
+        "velocidadEscritura": 5300,
+        "interfaz": "PCIe4",
+        "factorForma": "M.2",
+        "precio": 0
+      }
+    },
+    {
+      "id": "3",
+      "nombreServidor": "Servidor-BD-03",
+      "cpu": {
+        "modelo": "Intel Core i9-13900K",
+        "nucleos": 24,
+        "hilos": 32,
+        "velocidadBase": 3,
+        "velocidadBoost": 5.8,
+        "generacion": "13ª Gen (Raptor Lake)",
+        "consumoTDP": 125
+      },
+      "ram": {
+        "capacidadTotal": 256,
+        "tipo": "DDR5",
+        "velocidad": 5600,
+        "numeroModulos": 4,
+        "configuracion": "dual"
+      },
+      "almacenamiento": {
+        "tipo": "NVMe",
+        "capacidadTotal": 4000,
+        "velocidadLectura": 7450,
+        "velocidadEscritura": 6900,
+        "interfaz": "PCIe5",
+        "factorForma": "M.2"
+      }
+    },
+    {
+      "id": "4",
+      "nombreServidor": "Servidor-Backup-04",
+      "cpu": {
+        "modelo": "AMD Ryzen 7 5800X",
+        "nucleos": 8,
+        "hilos": 16,
+        "velocidadBase": 3.8,
+        "velocidadBoost": 4.7,
+        "generacion": "Zen 3",
+        "consumoTDP": 105
+      },
+      "ram": {
+        "capacidadTotal": 32,
+        "tipo": "DDR4",
+        "velocidad": 3600,
+        "numeroModulos": 2,
+        "configuracion": "dual"
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 8000,
+        "velocidadLectura": 250,
+        "velocidadEscritura": 240,
+        "interfaz": "SATA3",
+        "factorForma": "3.5"
+      }
+    },
+    {
+      "id": "5",
+      "nombreServidor": "Servidor-Test-05",
+      "cpu": {
+        "modelo": "Intel Core i5-12400",
+        "nucleos": 6,
+        "hilos": 12,
+        "velocidadBase": 2.5,
+        "velocidadBoost": 4.4,
+        "generacion": "12ª Gen (Alder Lake)",
+        "consumoTDP": 65
+      },
+      "ram": {
+        "capacidadTotal": 16,
+        "tipo": "DDR4",
+        "velocidad": 3200,
+        "numeroModulos": 2,
+        "configuracion": "dual"
+      },
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidadTotal": 512,
+        "velocidadLectura": 560,
+        "velocidadEscritura": 530,
+        "interfaz": "SATA3",
+        "factorForma": "2.5"
+      }
+    },
+    {
+      "id": "b7e0",
+      "nombreServidor": "Salah -1",
+      "cpu": {
+        "modelo": "XXXXXXXX",
+        "nucleos": 2,
+        "hilos": 8,
+        "velocidadBase": 1.3,
+        "velocidadBoost": 2,
+        "generacion": "12",
+        "consumoTDP": 10,
+        "precio": 50
+      },
+      "ram": {
+        "capacidadTotal": 16,
+        "tipo": "DDR4",
+        "velocidad": 0,
+        "numeroModulos": 2,
+        "configuracion": "single",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 4000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe4",
+        "factorForma": "2.5",
+        "precio": 200
+      }
+    },
+    {
+      "id": "f12c",
+      "nombreServidor": "dsawdawdawd",
+      "cpu": {
+        "modelo": "",
+        "nucleos": 4,
+        "hilos": 0,
+        "velocidadBase": 0,
+        "velocidadBoost": 0,
+        "generacion": "",
+        "consumoTDP": 0,
+        "precio": 50
+      },
+      "ram": {
+        "capacidadTotal": 8,
+        "tipo": "",
+        "velocidad": 0,
+        "numeroModulos": 0,
+        "configuracion": "",
+        "precio": 50
+      },
+      "almacenamiento": {
+        "tipo": "",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "",
+        "factorForma": "",
+        "precio": 50
+      }
+    },
+    {
+      "id": "5f0c",
+      "nombreServidor": "X-02",
+      "cpu": {
+        "modelo": "",
+        "nucleos": 8,
+        "hilos": 32,
+        "velocidadBase": 0,
+        "velocidadBoost": 0,
+        "generacion": "",
+        "consumoTDP": -38,
+        "precio": 0.14
+      },
+      "ram": {
+        "capacidadTotal": 16,
+        "tipo": "DDR5",
+        "velocidad": 2666,
+        "numeroModulos": 4,
+        "configuracion": "dual",
+        "precio": 0.24
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 8000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "SATA3",
+        "factorForma": "2.5",
+        "precio": 1.09
+      }
+    },
+    {
+      "id": "5c0b",
+      "nombreServidor": "EX-2",
+      "cpu": {
+        "modelo": "EX-500",
+        "nucleos": 2,
+        "hilos": 8,
+        "velocidadBase": 0,
+        "velocidadBoost": 0,
+        "generacion": "",
+        "consumoTDP": 0,
+        "precio": 200
+      },
+      "ram": {
+        "capacidadTotal": 8,
+        "tipo": "DDR4",
+        "velocidad": 2666,
+        "numeroModulos": 0,
+        "configuracion": "",
+        "precio": 50
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 512,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe3",
+        "factorForma": "",
+        "precio": 9.99
+      }
+    },
+    {
+      "id": "086d",
+      "nombreServidor": "EX-02X",
+      "cpu": {
+        "modelo": "E5-200",
+        "nucleos": 4,
+        "hilos": 4,
+        "velocidadBase": 0,
+        "velocidadBoost": 0,
+        "generacion": "",
+        "consumoTDP": 0,
+        "precio": 200
+      },
+      "ram": {
+        "capacidadTotal": 8,
+        "tipo": "DDR3",
+        "velocidad": 2400,
+        "numeroModulos": 0,
+        "configuracion": "",
+        "precio": 19.99
+      },
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidadTotal": 2000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe5",
+        "factorForma": "",
+        "precio": 50
+      }
+    },
+    {
+      "id": "75ce",
+      "nombreServidor": "EX-03",
+      "cpu": {
+        "modelo": "E5-255",
+        "nucleos": 8,
+        "hilos": 8,
+        "velocidadBase": 500,
+        "velocidadBoost": 49.8,
+        "generacion": "12",
+        "consumoTDP": 50,
+        "precio": 500
+      },
+      "ram": {
+        "capacidadTotal": 32,
+        "tipo": "DDR5",
+        "velocidad": 3600,
+        "numeroModulos": 2,
+        "configuracion": "single",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe4",
+        "factorForma": "3.5",
+        "precio": 19.99
+      }
+    },
+    {
+      "id": "75b8",
+      "nombreServidor": "EX-80",
+      "cpu": {
+        "modelo": "X80X",
+        "nucleos": 2,
+        "hilos": 8,
+        "velocidadBase": 20,
+        "velocidadBoost": 20,
+        "generacion": "20",
+        "consumoTDP": 20,
+        "precio": 20
+      },
+      "ram": {
+        "capacidadTotal": 4,
+        "tipo": "DDR3",
+        "velocidad": 2400,
+        "numeroModulos": 2,
+        "configuracion": "single",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "NVMe",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe3",
+        "factorForma": "3.5",
+        "precio": 19.99
+      }
+    },
+    {
+      "id": "2e6d",
+      "nombreServidor": "fetchServers",
+      "cpu": {
+        "modelo": "EX-05",
+        "nucleos": 2,
+        "hilos": 4,
+        "velocidadBase": 20,
+        "velocidadBoost": 20,
+        "generacion": "20",
+        "consumoTDP": 20,
+        "precio": 20
+      },
+      "ram": {
+        "capacidadTotal": 8,
+        "tipo": "DDR4",
+        "velocidad": 4800,
+        "numeroModulos": 2,
+        "configuracion": "single",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe4",
+        "factorForma": "3.5",
+        "precio": 20
+      }
+    },
+    {
+      "id": "19dc",
+      "nombreServidor": "EX-02",
+      "cpu": {
+        "modelo": "20",
+        "nucleos": 2,
+        "hilos": 256,
+        "velocidadBase": 2,
+        "velocidadBoost": 2,
+        "generacion": "2",
+        "consumoTDP": 2,
+        "precio": 20
+      },
+      "ram": {
+        "capacidadTotal": 256,
+        "tipo": "DDR4",
+        "velocidad": 2133,
+        "numeroModulos": 1,
+        "configuracion": "dual",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "HDD",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "SATA3",
+        "factorForma": "2.5",
+        "precio": 19.97
+      }
+    },
+    {
+      "id": "7bab",
+      "nombreServidor": "XXXXXXXXXSALAH",
+      "cpu": {
+        "modelo": "20",
+        "nucleos": 8,
+        "hilos": 8,
+        "velocidadBase": 20,
+        "velocidadBoost": 20,
+        "generacion": "20",
+        "consumoTDP": 20,
+        "precio": 20
+      },
+      "ram": {
+        "capacidadTotal": 256,
+        "tipo": "DDR4",
+        "velocidad": 2400,
+        "numeroModulos": 1,
+        "configuracion": "single",
+        "precio": 20
+      },
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidadTotal": 1000,
+        "velocidadLectura": 3500,
+        "velocidadEscritura": 3000,
+        "interfaz": "PCIe3",
+        "factorForma": "3.5",
+        "precio": 20
+      }
+    }
+  ]
+}
