@@ -5,7 +5,6 @@ import Form from './components/form/Form'
 import List from './components/list/List'
 import Footer from './components/footer/Footer'
 import { useState } from 'react'
-import SobreNosotros from './components/sobreNosotros/SobreNosotros'
 
 function App() {
   const [refreshList, setRefreshList] = useState(false);
